@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+}
+a,p{
+    color: white;
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+.divFooter{
+  background-color: black; 
+  border: 1px solid black;
+  padding-top: 15px;
+  text-align: center;
+  box-shadow: 100px 100px 100px 5px rgb(55,24,73);
+
+}
+a:hover{
+    color: red;
+}

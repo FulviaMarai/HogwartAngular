@@ -1,0 +1,47 @@
+.text{
+	margin: 0%;
+	padding:  0%;
+  font-family: 'Dancing Script', cursive;
+}
+
+.dumbotron {
+  height: 180px;
+  padding: 20px;
+  background-image:linear-gradient(to right, transparent, black,black,black, transparent); 
+}
+
+.title {
+  font-family: 'Parry Hotter1'; 
+}
+
+.bg{
+  background-image: url('/assets/img/hogwarts.ravenclaw.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;  
+  width: 100%;
+  
+
+}
+
+.ghost{
+	height: 30vw;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+			box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.gallery{
+	width: 20vw;
+}
+
+.border-img{
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+			box-shadow: 5px 5px 15px 5px #000000;
+	
+}
+
+.color{
+	background-color: #1E4770;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+			box-shadow: 5px 5px 15px 5px #000000;
+}

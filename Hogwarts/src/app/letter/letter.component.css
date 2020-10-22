@@ -1,0 +1,19 @@
+.letterMain{
+    position: relative;
+    text-align: center;
+    padding: 60px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url("/../../assets/imgEro/hogwards.jpg");
+    background-position: 20%;
+    box-shadow: 0px 0px 200px 20px rgb(55,24,73);
+    z-index: 0;
+}
+.letterDesc{
+    position: absolute;
+    top: 250px;
+    max-width: 500px;
+    left: 320px;
+}
+li{
+    list-style: url();
+}

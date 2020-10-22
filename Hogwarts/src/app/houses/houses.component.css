@@ -1,0 +1,115 @@
+
+.parallaxDiv{
+  width: 100%; 
+  background-image: url('/assets/img/HogwartsPs3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  -webkit-box-shadow: 0px -17px 36px 0px #000000; 
+box-shadow: 0px -17px 36px 0px #000000;
+  }
+
+
+.owl{
+	height: 10%;
+	position:  absolute;
+	right: 5px;
+	z-index: 99;
+}
+
+.dragon{
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: 40px;
+	z-index: -10;
+}
+
+
+
+
+.img1, .img2, .img3, .img4{
+	transition: width 1s, background-color 1s; 
+	z-index: 5;
+}
+
+.img1:hover{
+	background-color: #0B4A09;
+	border: 5px solid white;
+	border-radius: 5%;
+	width: 500px;
+	position: absolute;
+	z-index:  10;
+	left:  40px;
+	opacity: 1;
+}
+
+.img2:hover{
+	background-color: #CEA105;
+	border: 5px solid white;
+	border-radius: 5%;
+	width: 500px;
+	position: absolute;
+	z-index:  10;
+	left:  40px;
+}
+.img3:hover{
+	background-color: #860603;
+	border: 5px solid white;
+	border-radius: 5%;
+	width: 500px;
+	position: absolute;
+	z-index:  10;
+	left:  40px;
+}
+.img4:hover{
+	background-color: #0094BA;
+	border: 5px solid white;
+	border-radius: 5%;
+	width: 500px;
+	position: absolute;
+	z-index:  10;
+	left:  40px;
+}
+
+.change{
+	background-color: red;
+
+}
+
+
+@media screen and (max-width: 600px){
+
+.owl{
+	height: 3%;
+	right: 1px;
+}
+
+.img1:hover{
+left: 0;
+border: none;
+width: 100%;
+}
+.img2:hover{
+left: 0;
+border: none;
+width: 100%;
+}
+.img3:hover{
+left: 0;
+border: none;
+width: 100%;
+}
+.img4:hover{
+left: 0;
+border: none;
+width: 100%;
+}
+
+.dragon{
+	display:  none;
+}
+
+
+}

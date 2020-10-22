@@ -1,0 +1,27 @@
+<div class="base">
+<div class="container text-center">
+<br>
+<br>
+<div class="d-flex justify-content-center" *ngIf="crew">
+<div class="card w-75 mb-3" style="background-image: url('{{crew.bak}}');">
+  <div class="row no-gutters ">
+    <div class="col-md-4">
+      <img src="{{crew.img}}" class="card-img portrait" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title text-danger bg-dark">{{ crew.name }}</h2>
+		    <h4 style="color:black">{{ crew.job }}</h4>
+        <p class="card-text text-light">{{ crew.bio}}</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+        <div class="icon-block text-center">
+            <a  routerLink="/prof"><img class="icon" src="/assets/img/broom-icon.png"></a><a href="#"><img class="icon" src="/assets/img/hat-icon.png"></a><a href="#"><img class="icon" src="/assets/img/owl-icon.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="end row justify-content-center "><img src='/assets/img/silhouette.png'></div>
+</div>

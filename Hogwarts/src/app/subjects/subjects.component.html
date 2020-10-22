@@ -1,0 +1,42 @@
+<div class="base">
+
+
+<div class="elementor heading title dumbotron">
+  <div class="primary heading title">
+  <h1 class="title">Subjects</h1>
+</div>
+	<h3 style="color:silver">Everything you need to know</h3>
+</div>
+<br>
+<br>
+    <div class="main">
+      <div class="container">
+        <div class="content">
+
+<a [routerLink]="['/subjects-detail', courses]"><div class="black" *ngFor="let course of courses; index as courseId"> 
+            	<div class="rank text-center">{{courseId + 1}}</div>
+            
+            			<div class="img_container">
+  							<img class="img-responsive" src="{{course.img}}">
+						</div>
+							<h2 class="name text-center">{{course.name}}</h2>
+							<p class="genre text-center"><b>{{course.genre}}</b></p>
+							<p class="start testo text-center">{{course.start}}  </p>
+							<p class="description testo text-center"> {{course.description}} </p>
+            
+            	</div></a>
+           </div>
+
+
+      	</div>
+     
+    </div>
+
+
+</div>
+
+
+      
+
+
+

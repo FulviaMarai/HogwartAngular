@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+}
+a,p{
+    color: white;
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+.divFooter{
+  background-color: black; 
+  border: 1px solid black;
+  padding-top: 15px;
+  text-align: center;
+}
+a:hover{
+    color: red;
+}

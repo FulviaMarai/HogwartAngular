@@ -1,0 +1,84 @@
+.base {
+  background-image: url('/assets/img/prova.jpg');
+  background-repeat: repeat-y;
+  background-size: 100%
+}
+
+
+/* .parallaxDiv{
+  width: 100%;
+  background-image:url('/assets/img/HogwartsPs3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  } */
+
+.container {
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+}
+
+.title {
+  font-family: 'Parry Hotter1'; 
+}
+
+.frame {
+background-image:url(/assets/img/frameProfile.png);
+background-color: transparent;
+background-position: center top;
+background-repeat: no-repeat;
+background-size: contain;
+width: 250px;
+height: 500px;
+border: 0;
+}
+
+.miniback {
+  height: 550px;
+}
+
+.color{
+  background-color: darkred;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+      box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+.profile-card-5{
+    margin-top:225px;
+    width: 150px;
+    height: 242px;
+    align-self: center;
+
+}
+
+.profile-card-5 .card-img-block {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-top {
+    width: 120px;
+    border-radius:50%;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h6{
+    color:#4E5E30;
+}
+.profile-card-5 p{
+    font-size:12px;
+}
+
+.end {
+
+background-image: url(/assets/img/forestback.png);
+background-size: 310px;
+background-position: bottom;
+
+}
+.end img {
+    height: 100px;
+}

@@ -1,0 +1,15 @@
+
+  @font-face {
+    font-family: 'Parry Hotter1';
+    src: url('fonts/HarryPotter-ov4z.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    font-family: 'Parry Hotter1' !important;
+    font-size: 24px !important;
+}
+html{ 
+    /* cursor: nw-resize;  */
+}
+

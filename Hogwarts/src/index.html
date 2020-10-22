@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hogwarts</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+    $(document).ready(function(){
+      function expand(){
+      $(this).toggleClass("on");
+      $(".menu").toggleClass("active");
+      };
+      $(".button").on('click', expand);
+      $("#bobo").animate({left: '1000px'});
+      // function print(){
+      //   var message = ["loremsjbhfdksb dfushfls",
+      //   "oremsjbhfdksb dfushflsefdf",
+      //   "oremsjbhfdksb dfushfls",
+      //   "oremsjbhfdksb dfushflsdfjlhdfgd"]
+      //   var random = message[Math.floor(Math.random()*message.length)];
+      //  setTimeout(function() {Swal.fire(random); } ,1000)
+      // }
+      $("#hatButton").on("click",function(){
+        document.getElementById("choosingHat").setAttribute("class","loading");
+        setTimeout(function(){
+          document.getElementById("choosingHat").removeAttribute("class");
+        },1000)
+      })
+      var isFirstShowCall = false;
+      var x = "";
+      function myFunction() {
+      x = document.getElementById("nameUser").value;
+      console.log("hi",x)
+      console.log("serri")
+      document.getElementById("demo").innerHTML = x;
+    }
+        // Set constraints for the video stream
+      var constraints = { video: { facingMode: "user" }, audio: false };
+      // Define constants
+      const cameraView = document.querySelector("#camera--view")
+      // Access the device camera and stream to cameraView
+      function cameraStart() {
+          navigator.mediaDevices
+              .getUserMedia(constraints)
+              .then(function(stream) {
+              track = stream.getTracks()[0];
+              cameraView.srcObject = stream;
+    })
+    .catch(function(error) {
+        console.error("Oops. Something is broken.", error);
+    });
+}
+window.addEventListener("load", cameraStart, false);
+})
+  </script>
+</body>
+</html>

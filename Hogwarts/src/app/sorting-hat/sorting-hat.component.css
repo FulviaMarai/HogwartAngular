@@ -1,0 +1,62 @@
+.bodyHat{
+    background-image: url("/../../assets/img/prova.jpg");
+
+}
+#camera--view2{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+#camera--view{
+    width: 65%;
+    height: 65%;
+    margin-top: 20px ;
+}
+.frameHat{
+    position: absolute;
+}
+#camera--trigger{
+    display: none;
+}
+.bgHat{
+    padding: 60px;
+}
+.loading {
+    -webkit-animation: rotation 1s  linear;
+}
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+.nameHome{
+    font-family: 'Parry Hotter1';
+    font-size: 30px;
+    color: white;
+}
+.descHome{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: white;
+}
+.hatChoice{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: white;
+}
+.infoHat{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(123, 66, 146,0.5);
+    padding: 30px 60px 30px 60px;
+}
+h1{
+     font-family: 'Parry Hotter1' !important;
+    color: white;
+}
+

@@ -1,0 +1,61 @@
+.base {
+  background-image: url('/assets/img/prova.jpg');
+  background-repeat: repeat-y;
+  background-size: 100%
+}
+
+.card {
+  padding: 20px;
+  background-size: cover;
+  width: 500px;
+  background-position: right;
+} 
+
+.card-title {
+  font-family: 'Parry Hotter1';
+}
+
+.card-body {
+  background-color: rgba(95, 95, 95, 0.5) ;
+}
+
+.portrait {
+  border-radius: 25%;
+}
+
+ .icon-block{
+    float:left;
+    width:100%;
+}
+
+.icon-block a{
+    text-decoration:none;
+}
+
+.icon {
+  display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+
+.icon:hover {
+  background-color:red;
+    border: 1px solid red;
+  color:;
+}
+
+.end {
+
+background-image: url(/assets/img/forestback.png);
+background-size: 310px;
+background-position: bottom;
+
+}
+.end img {
+    height: 100px;
+}

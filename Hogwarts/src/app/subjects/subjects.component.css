@@ -1,0 +1,161 @@
+body, html {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testo {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.base {
+  background-image: url('/assets/img/prova.jpg');
+  background-repeat: repeat-y;
+  background-size: 100%
+}
+
+
+.dumbotron {
+  height: 180px;
+  padding: 20px;
+  background-image:linear-gradient(to right, transparent, black,black,black, transparent); 
+}
+
+.title {
+  font-family: 'Parry Hotter1'; 
+  color: white;
+}
+
+.primary {
+	text-align: center;
+  font-size: 300px;
+  font-weight: 900;
+  font-family: 'Amatic SC',sans-serif;
+  text-transform: uppercase;
+   padding: 30px 60px;
+   letter-spacing: 2px;  
+}
+
+.elementor {
+	font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+/*   margin: -20px 0px 40px 0px; */
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.rank {
+    background: /* #ffcd2e */ purple;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 120px;
+    height: 200px;
+    margin: 0;
+    padding: 30px;
+    width: 200px;
+}
+
+
+.img_container {
+    display: block;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.img_container img.img-responsive {
+    display: block;
+    height: 100%;
+    max-width: 9999px;
+    position: relative;
+    width: auto;
+}
+
+h2 {
+/*     background: #ff2c5e; */
+    background: darkblue;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 200px;
+    margin: 0;
+    padding: 30px;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+.black {
+background: linear-gradient(transparent,black,transparent)
+
+}
+/*  .black :nth-child(even) p+p {
+    width: 400px;
+}
+ */
+
+p { 
+  /*   background: #f9f9f9;  */
+   background: black;
+    display: block;
+    float: left;
+    font-size: 18px;
+    height: 200px;
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    text-overflow: ellipsis;
+}
+
+ .black p+p {
+    background: #e5e5e5;
+}
+
+ .black p+p+p {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    width: 600px;
+}
+
+.genre {
+  text-align: center;
+  float: left;
+  font-size: 20px;
+  color: darkviolet;
+  font-family: 'Amatic SC',sans-serif;
+  text-transform: uppercase;
+  padding: 40px;
+  letter-spacing: .5px;  
+}
+
+.genre:hover { 
+  font-size: 20px;
+  color: white;
+  font-family: 'Parry Hotter1'; 
+  border-radius: 50%;
+  background: radial-gradient(goldenrod,darkgoldenrod,transparent,black);
+    padding: 50px;
+
+-webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+  
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

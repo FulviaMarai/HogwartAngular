@@ -1,0 +1,136 @@
+.base{ 
+
+  background-image:url('/assets/img/prova.jpg');
+  background-attachment: fixed;
+  z-index: -100;
+}
+
+.dumbotron {
+  height: 180px;
+  padding: 20px;
+  background-image:linear-gradient(to right, transparent, black,black,black, transparent); 
+}
+
+.text{
+ 
+font-family: 'Dancing Script', cursive; 
+}
+
+.title {
+  font-family: 'Parry Hotter1'; 
+}
+
+.owl{
+  height: 10%;
+  position: absolute;
+  left: 50px;
+ 
+}
+
+.dragoon{
+  height: 100px;
+  position: absolute;
+  left: 40%;
+  right: 60%;
+  bottom : -200px;
+ 
+}
+.dragooon{
+  height: 100px;  
+  left: 40%;
+  right: 60%;
+  top: 330%;
+ position:  absolute;
+ 
+}
+
+.body1{
+background-image: url('/assets/img/EulenPs2.png');
+background-repeat: no-repeat;
+background-position: right ;
+position: relative;
+height: 20vw; 
+width: 50vw;
+padding-top: 5vw;
+z-index:  10;
+}
+
+.body2{
+background-image: url('/assets/img/EulenPs1.png');
+background-repeat: no-repeat;
+background-position: right ;
+position: relative;
+height: 20vw; 
+width: 50vw;
+padding-top: 5vw;
+
+
+}
+
+.parallaxDiv{
+  width: 100%;
+  height: 40vw;
+  background-image: url('../../assets/img/HogwartsPs3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  
+  }
+
+.ground1{
+   width: 100%;
+  height: 40vw;
+  background-image: url('../../assets/img/HogwartsPs1.png');
+  background-size: cover;
+  background-attachment: fixed;  
+  position: relative;
+
+}
+
+.ground2{
+  background-image: url('/assets/img/HogwartsPs2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;  
+  width: 100%;
+  height: 40vw;
+  z-index: 10;
+}
+
+.dumbeldore{
+  height: 10vw;
+  
+}
+
+ .end {
+background-image: url('/assets/img/forestback.png'); 
+background-size: 310px;
+background-position:bottom;
+margin-top: 220px;
+width: 100%;
+}
+.end img {
+    height: 100px;
+    width: 50px;
+    position: relative;
+} 
+
+
+@media screen and (max-width: 1400px) {
+  .end{
+    display: none;
+  }
+}
+
+
+
+
+@media screen and ( max-width: 600px){
+
+  
+  .dumbotron{
+   height: 50vw;
+  }
+}
+
+
